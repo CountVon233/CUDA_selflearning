@@ -16,7 +16,7 @@ Host [hostname]
     User countvon
     Port 12345
 ```
-然后再vscode远程登录中选择"Connect to Host..."并通过配置好的Host访问主机
+然后在vscode远程登录中选择"Connect to Host..."并通过配置好的Host访问主机
 
 2、编译、运行CUDA文件
 ```bash
