@@ -14,7 +14,7 @@ Host [any hostname on yourself]
     HostName 202.120.38.217
     User countvon
     Port 12345
-```bash
+```
 然后再vscode远程登录中选择"Connect to Host..."并通过配置好的Host访问主机
 2、编译、运行CUDA文件
 ```bash
