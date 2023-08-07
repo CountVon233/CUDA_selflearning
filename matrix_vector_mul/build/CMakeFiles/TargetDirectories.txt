@@ -1,0 +1,3 @@
+/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles/matrix_vector_mul.dir
+/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles/edit_cache.dir
+/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles/rebuild_cache.dir

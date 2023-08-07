@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/matrix_vector_mul.dir/main.cpp.o CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o -o matrix_vector_mul   -L/usr/local/cuda-12.2/targets/x86_64-linux/lib/stubs  -L/usr/local/cuda-12.2/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

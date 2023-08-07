@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/vector_add.dir/main.cpp.o CMakeFiles/vector_add.dir/vector_add.cu.o -o vector_add   -L/usr/local/cuda-12.2/targets/x86_64-linux/lib/stubs  -L/usr/local/cuda-12.2/targets/x86_64-linux/lib  -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
