@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/countvon/CUDA_Project/matrix_vector_mul
+CMAKE_SOURCE_DIR = /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/countvon/CUDA_Project/matrix_vector_mul/build
+CMAKE_BINARY_DIR = /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/matrix_vector_mul.dir/depend.make
@@ -72,22 +72,22 @@ include CMakeFiles/matrix_vector_mul.dir/flags.make
 CMakeFiles/matrix_vector_mul.dir/main.cpp.o: CMakeFiles/matrix_vector_mul.dir/flags.make
 CMakeFiles/matrix_vector_mul.dir/main.cpp.o: ../main.cpp
 CMakeFiles/matrix_vector_mul.dir/main.cpp.o: CMakeFiles/matrix_vector_mul.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/matrix_vector_mul.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/matrix_vector_mul.dir/main.cpp.o -MF CMakeFiles/matrix_vector_mul.dir/main.cpp.o.d -o CMakeFiles/matrix_vector_mul.dir/main.cpp.o -c /home/countvon/CUDA_Project/matrix_vector_mul/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/matrix_vector_mul.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/matrix_vector_mul.dir/main.cpp.o -MF CMakeFiles/matrix_vector_mul.dir/main.cpp.o.d -o CMakeFiles/matrix_vector_mul.dir/main.cpp.o -c /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/main.cpp
 
 CMakeFiles/matrix_vector_mul.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/matrix_vector_mul.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/countvon/CUDA_Project/matrix_vector_mul/main.cpp > CMakeFiles/matrix_vector_mul.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/main.cpp > CMakeFiles/matrix_vector_mul.dir/main.cpp.i
 
 CMakeFiles/matrix_vector_mul.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/matrix_vector_mul.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/countvon/CUDA_Project/matrix_vector_mul/main.cpp -o CMakeFiles/matrix_vector_mul.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/main.cpp -o CMakeFiles/matrix_vector_mul.dir/main.cpp.s
 
 CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o: CMakeFiles/matrix_vector_mul.dir/flags.make
 CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o: ../matrix_vector_mul.cu
 CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o: CMakeFiles/matrix_vector_mul.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o"
-	/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o -MF CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o.d -x cu -c /home/countvon/CUDA_Project/matrix_vector_mul/matrix_vector_mul.cu -o CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o"
+	/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o -MF CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o.d -x cu -c /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/matrix_vector_mul.cu -o CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o
 
 CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.i"
@@ -109,7 +109,7 @@ matrix_vector_mul: CMakeFiles/matrix_vector_mul.dir/main.cpp.o
 matrix_vector_mul: CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o
 matrix_vector_mul: CMakeFiles/matrix_vector_mul.dir/build.make
 matrix_vector_mul: CMakeFiles/matrix_vector_mul.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable matrix_vector_mul"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable matrix_vector_mul"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix_vector_mul.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/matrix_vector_mul.dir/clean:
 .PHONY : CMakeFiles/matrix_vector_mul.dir/clean
 
 CMakeFiles/matrix_vector_mul.dir/depend:
-	cd /home/countvon/CUDA_Project/matrix_vector_mul/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/countvon/CUDA_Project/matrix_vector_mul /home/countvon/CUDA_Project/matrix_vector_mul /home/countvon/CUDA_Project/matrix_vector_mul/build /home/countvon/CUDA_Project/matrix_vector_mul/build /home/countvon/CUDA_Project/matrix_vector_mul/build/CMakeFiles/matrix_vector_mul.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build/CMakeFiles/matrix_vector_mul.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/matrix_vector_mul.dir/depend
 

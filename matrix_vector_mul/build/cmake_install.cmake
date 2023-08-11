@@ -1,4 +1,4 @@
-# Install script for directory: /home/countvon/CUDA_Project/matrix_vector_mul
+# Install script for directory: /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/countvon/CUDA_Project/matrix_vector_mul/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

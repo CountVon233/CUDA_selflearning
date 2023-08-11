@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/countvon/CUDA_Project/matrix_vector_mul/matrix_vector_mul.cu" "CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o" "gcc" "CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o.d"
-  "/home/countvon/CUDA_Project/matrix_vector_mul/main.cpp" "CMakeFiles/matrix_vector_mul.dir/main.cpp.o" "gcc" "CMakeFiles/matrix_vector_mul.dir/main.cpp.o.d"
+  "/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/matrix_vector_mul.cu" "CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o" "gcc" "CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o.d"
+  "/home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/main.cpp" "CMakeFiles/matrix_vector_mul.dir/main.cpp.o" "gcc" "CMakeFiles/matrix_vector_mul.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

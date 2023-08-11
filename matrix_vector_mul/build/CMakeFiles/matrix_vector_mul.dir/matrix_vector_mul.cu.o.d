@@ -1,4 +1,4 @@
-CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o : /home/countvon/CUDA_Project/matrix_vector_mul/matrix_vector_mul.cu \
+CMakeFiles/matrix_vector_mul.dir/matrix_vector_mul.cu.o : /home/countvon/CUDA_Project/CUDA_selflearning/matrix_vector_mul/matrix_vector_mul.cu \
     /usr/include/stdc-predef.h \
     /usr/local/cuda-12.2/bin/../targets/x86_64-linux/include/cuda_runtime.h \
     /usr/local/cuda-12.2/bin/../targets/x86_64-linux/include/crt/host_config.h \

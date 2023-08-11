@@ -60,6 +60,10 @@ matrix_mul : 矩阵乘法
 
 matrix_vector_mul : 矩阵向量乘
 
+pagerank : 经典pagerank算法（通过链式前向星存图）
+
+check_device : 返回主机GPU相关参数
+
 5、通过CMake编译、运行Application（以vector_add为例）：
 ```bash
 $ cd vector_add/build
